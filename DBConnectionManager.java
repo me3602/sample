@@ -14,12 +14,12 @@ public class DBConnectionManager {
     private Vector connections = new Vector(10);
     
     //드라이버 Class
-    private String _driver = "com.mysql.jdbc.Driver";
-    private String _url = "jdbc:mysql://192.168.184.114:3307/bnb_live";    
+    private String _driver = "driver";
+    private String _url = "url";    
     
     //계정
-    private String _user = "paxsrv";
-    private String _password = "WEWQ018JLM";
+    private String _user = "id";
+    private String _password = "pw";
     
     private boolean _traceOn = false;
     private boolean initialized = false; 
